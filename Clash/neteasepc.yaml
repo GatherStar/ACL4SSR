@@ -1,0 +1,5 @@
+payload:
+  - PROCESS-NAME,cloudmusic.exe
+  - PROCESS-NAME,cloudmusic
+  - PROCESS-NAME,node
+  - PROCESS-NAME,node.exe
