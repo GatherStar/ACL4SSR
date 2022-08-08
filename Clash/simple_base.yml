@@ -17,3 +17,12 @@ dns:
     - tls://1.1.1.1:853
     - tls://1.0.0.1:853
     - tls://dns.google:853
+
+
+rule-providers:
+  📢 谷歌FCM:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/googlefcm.yaml
+    interval: 86400
